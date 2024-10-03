@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    
+    <title>My page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+<body>
+     
+
+
+    
+    <header>
+        <p id="name">Долгов Дмитрий</p>
+        <div id="links">
+            <button class="link">Главная</button>
+            <button class="link">Портфолио</button>
+            <button class="link">О себе</button>
+            
+        </div>
+        
+    </header>
+    <main>
+        <div class="warper">
+            <div>
+                <label for="task1">Возведение в степень</label>
+                <input type="number" id="task1.1" class="text-field" placeholder="Введите число">
+                <input type="number" id="task1.2" class="text-field" placeholder="Введите степень">
+                <button class="link" onclick="task1()">Посчитать</button>
+            </div>
+            <div>
+                <label for="task1">Нахождение НОД</label>
+                <input type="number" id="task2.1" class="text-field" placeholder="Введите число">
+                <input type="number" id="task2.2" class="text-field" placeholder="Введите число">
+                <button class="link" onclick="task2()">Посчитать</button>
+            </div>
+            <div>
+                <label for="task1">Нахождение наименьшей цифры</label>
+                <input type="number" id="task3" class="text-field" placeholder="Введите число">
+                <button class="link" onclick="task3()">Посчитать</button>
+            </div>
+            <div>
+                <label for="task1">Плюрализация</label>
+                <br>
+                <input type="number" id="task4" class="text-field" placeholder="Введите число">
+                <button class="link" onclick="task4()">Посчитать</button>
+                <br>
+                <label for="" id="task4answer"></label>
+            </div>
+            <div>
+                <label for="task1">Числа Фибоначчи</label>
+                <input type="number" id="task5" class="text-field" placeholder="Введите число">
+                <button class="link" onclick="task5()">Посчитать</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p id="email"></p>
+    </footer>
+</body>
+</html>
